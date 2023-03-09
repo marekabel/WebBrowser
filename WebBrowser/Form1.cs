@@ -44,12 +44,12 @@ namespace WebBrowser
         {
             webBrowser2.Refresh();
         }
-
+        // domovksá stránka, není natvrdo -> dodělat
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             webBrowser2.Navigate("https://www.seznam.cz/");
         }
-
+        // stránky https -> dodělat
         private void DisplayHomePage()
         {
             string homePage = toolStripComboBox1.SelectedItem.ToString();

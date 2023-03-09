@@ -102,8 +102,9 @@
             // 
             this.toolStripComboBox1.Items.AddRange(new object[] {
             "seznam.cz"});
+            this.toolStripComboBox1.MaxLength = 8;
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 25);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(300, 25);
             // 
             // toolStripButton4
             // 
@@ -146,7 +147,7 @@
             // toolStripComboBox2
             // 
             this.toolStripComboBox2.Name = "toolStripComboBox2";
-            this.toolStripComboBox2.Size = new System.Drawing.Size(121, 25);
+            this.toolStripComboBox2.Size = new System.Drawing.Size(250, 25);
             this.toolStripComboBox2.Text = "Historie";
             // 
             // Form1
